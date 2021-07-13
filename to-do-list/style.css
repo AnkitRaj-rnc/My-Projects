@@ -1,0 +1,22 @@
+.mainInput{
+    width: 500px  ;
+    height: 40px;
+    border: grey;
+    box-shadow: 1px 1px 15px 2px grey;
+}
+
+#ankit{
+    min-height: 600px;
+}
+
+.mainLabel{
+    font-size: 35px;
+    margin-top: 10px;
+    
+}
+#button1{
+    font-size: 20px;
+    background: rgb(105, 202, 247);
+    border-radius: 5px;
+    margin-left: 15px;
+}
