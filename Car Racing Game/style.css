@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+}
+.carGame{
+    width: 100%;
+    height: 100vh;
+    background-image: url("grass1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hide{
+    display: none;
+}
+.lines{
+    width: 10px;
+    height: 80px;
+    background-color: white;
+    position:relative;
+    margin-left: 195px;
+}
+.score{
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: greenyellow;
+    padding:auto;
+    width: 300px;
+    line-height: 70px;
+    font-size: 35px;
+    color: black;
+    text-align: center;
+}
+.car, .enemy{
+    width: 50px;
+    height: 70px;
+    padding: 0%;
+    background: red;
+    position: absolute;
+    bottom: 50px;
+    background-image: url("car.png");
+    background-repeat:no-repeat;
+    background-size: 100%, 100%;
+}
+.gameArea{
+    width: 400px;
+    height: 100%;
+    background-color:#222f3e;
+    margin: auto;
+    position: relative;
+    border-left: 8px dashed white;
+    border-right: 8px dashed white;
+
+}
+
+.startScreen{
+    position: absolute;
+    background-color: rgb(199, 156, 15);
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%, -50%);
+    width: 700px;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    border: 2 px sloid rgb(110, 185, 39);
+    padding: 15px;
+    margin: auto;
+    cursor: pointer;
+    letter-spacing: 5;
+    font-size: 25x;
+    word-spacing: 3;
+    line-height: 30px;
+    text-transform: uppercase;
+    box-shadow: 0 5px 5px rgb(158, 238, 67);
+}
