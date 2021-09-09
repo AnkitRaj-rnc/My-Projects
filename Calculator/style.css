@@ -1,0 +1,54 @@
+.heading{
+    background-color:#fa983a ;
+    height: 80px;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+
+}
+.head{
+    color: white;
+    font-size: 30px;
+}
+.body{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.valueInput{
+    width: 60px;
+    height: 60px;
+    border: 5px solid #10ac84;
+    border-radius: 50%;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #b8e994;
+}
+.inputDiv{
+    margin-bottom: 10px;
+
+}
+.equalTo{
+    height: 60px;
+    width: 300px;
+    border: 5px solid #10ac84;
+    background-color: #b8e994;
+    border-radius: 20px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.display{
+    border: 2px solid #10ac84;
+    border-radius: 20px;
+    font-size: 20px;
+    height: 60px;
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
