@@ -12,22 +12,23 @@
 
 <body>
   <div class="body">
-    <div class="heading">
-      <span class="head">Calculator</span>
-    </div>
-    <div>
-      <input type="text" readonly class="display" id="disp">
+
+    <div class="cborder">
+      <div class="heading">
+        <span class="head">Calculator</span>
+      </div>
+      <div class="display" id="disp"></div>
       <div class="inputDiv">
-        <button  class="valueInput" id="one" onclick="one()"> 1 </button>
-        <button  class="valueInput" id="two" onclick="two()" value="2"> 2 </button>
-        <button  class="valueInput" id="three" onclick="three()"> 3 </button>
+        <button class="valueInput" id="one" onclick="one()"> 1 </button>
+        <button class="valueInput" id="two" onclick="two()"> 2 </button>
+        <button class="valueInput" id="three" onclick="three()"> 3 </button>
         <button class="valueInput" id="add" onclick="add()"> + </button>
       </div>
       <div class="inputDiv">
         <button class="valueInput" id="four" onclick="four()"> 4 </button>
         <button class="valueInput" id="five" onclick="five()"> 5 </button>
         <button class="valueInput" id="six" onclick="six()"> 6 </button>
-        <button class="valueInput" id="sub"onclick="sub()"> - </button>
+        <button class="valueInput" id="sub" onclick="sub()"> - </button>
       </div>
       <div class="inputDiv">
         <button class="valueInput" id="seven" onclick="seven()"> 7 </button>
@@ -36,13 +37,14 @@
         <button class="valueInput" id="multi" onclick="multi()"> * </button>
       </div>
       <div class="inputDiv">
-        <button class="valueInput" onclick="clr()"> C </button>
+        <button class="valueInput" onclick="clr()"> AC </button>
         <button class="valueInput" id="zero" onclick="zero()"> 0 </button>
-        <button  class="valueInput" id="dot" onclick="dot()"> . </button>
-        <button  class="valueInput" id="divide" onclick="divide()"> / </button>
+        <button class="valueInput" id="dot" onclick="dot()"> . </button>
+        <button class="valueInput" id="divide" onclick="divide()"> / </button>
       </div>
       <div class="inputDiv">
         <button class="equalTo" onclick="result()"> = </button>
+        <button class="equalTo" onclick="clrOne()"> C </button>
       </div>
     </div>
   </div>

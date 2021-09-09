@@ -1,14 +1,14 @@
 .heading{
-    background-color:#fa983a ;
-    height: 80px;
-    width: 400px;
-    padding: 20px;
+    background-color:#10ac84 ;
+    height: 40px;
+    width: 300px;
+    padding: 5px;
     text-align: center;
-
+    border-radius: 25px;
 }
 .head{
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
 .body{
     margin-top: 50px;
@@ -33,7 +33,7 @@
 }
 .equalTo{
     height: 60px;
-    width: 300px;
+    width: 140px;
     border: 5px solid #10ac84;
     background-color: #b8e994;
     border-radius: 20px;
@@ -51,4 +51,12 @@
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 10px;
+    color: black;
+}
+.cborder{
+    /* background-image: linear-gradient(to right, #1f4037 , #99f2c8); */
+    border: 3px solid #1dd1a1;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
 }
