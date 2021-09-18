@@ -63,6 +63,8 @@ function divide(){
 }
 function clr(){
     document.getElementById("disp").innerHTML = ""
+    let leng = display.length
+    let cler = display.splice(0,leng)
 }
 function clrOne(){
     let clearOne = display.pop();

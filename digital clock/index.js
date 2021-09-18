@@ -7,7 +7,7 @@ document.getElementById("ap").innerHTML = date.getHours() > 12 ? "PM": "AM"
 document.getElementById("year").innerHTML = (date.getYear() - 100)
 document.getElementById("month").innerHTML = (date.getMonth() + 1)
 document.getElementById("day").innerHTML = date.getDate()
-var a = document.getElementById("sec").innerHTML = date.getSeconds()
+var a = document.getElementById("sec").innerHTML = date.getSeconds()*
 
 setInterval(()=>{
     document.getElementById("sec").innerHTML = Number(document.getElementById("sec").innerHTML) + 1;
