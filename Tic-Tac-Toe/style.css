@@ -1,0 +1,61 @@
+.box{
+    height: 20%;
+    width: 20%;
+    margin: 10px;
+    display: inline-block;
+
+    border: 2px solid #f51707;
+    border-radius: 20px;
+}
+.div1, .div2, .div3{
+    margin-left: 23%;
+}
+.div1{
+    margin-top: 3%;
+}
+.disp{
+    visibility: hidden
+}
+.startDisplay{
+    visibility: hidden
+
+}
+#start{
+    position: relative;
+    top: 40%;
+    height: 40px;
+}
+.tic{
+    color: #4cd137;
+    font-weight: bold;
+}
+.dash{
+    color: #485460;
+    font-weight: bold;
+}
+.tac{
+    color:  #ffa502;
+    font-weight: bold;
+}
+.toe{
+    color: #ff4d4d;
+    font-weight: bold;
+}
+.hideScore{
+    visibility: hidden;
+}
+.showScore{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    height: 100px;
+    width: 40%;
+    border: 2px solid #487eb0;
+    padding: 25px;
+    text-align: center;
+    font-size: 25px;
+    color: #192a56;
+}
+.show{
+    visibility: visible;
+}

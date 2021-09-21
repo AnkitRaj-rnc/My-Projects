@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <div class="d-grid gap-2" id="start">
+        <button class="btn btn-success" type="button" onclick="start()">Start</button>
+        <div class="input-group mb-3">
+            <input type="text" id="first" class="form-control" placeholder="First_Player" aria-label="Username" aria-describedby="basic-addon1"><br>
+            <input type="text" id="second" class="form-control" placeholder="Second_Player" aria-label="Username" aria-describedby="basic-addon1">
+        </div> 
+    </div>
+          
+      </div>
+    <div class="div1 disp" id="dis1">
+        <h1><span class="tic">Tic</span><span class="dash">-</span><span class="tac">Tac</span><span class="dash">-</span><span class="toe">Toe</span></h1>
+        <div class="box" id="b1" onclick="change1();result()"></div>
+        <div class="box" id="b2" onclick="change2();result()"></div>
+        <div class="box" id="b3" onclick="change3();result()"></div>
+    </div>
+
+    <div class="div2 disp"id="dis2">
+        <div class="box" id="b4" onclick="change4();result()"></div>
+        <div class="box" id="b5" onclick="change5();result()"></div>
+        <div class="box" id="b6" onclick="change6();result()"></div>
+    </div>
+
+    <div class="div3 disp" id="dis3">
+        <div class="box" id="b7" onclick="change7();result()"></div>
+        <div class="box" id="b8" onclick="change8();result()"></div>
+        <div class="box" id="b9" onclick="change9();result()"></div>
+    </div>
+    <div id="score" class="hideScore "></div>
+    <button type="button" id="restartBtn" class="btn btn-danger disp" style="display: block; margin-left: 28%;" onclick="restart()">Restart</button>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
